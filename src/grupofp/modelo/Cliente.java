@@ -34,10 +34,6 @@ public abstract class Cliente {
         return nif;
     }
 
-    public void setNif(String nif) {
-        this.nif = nif;
-    }
-
     public String getEmail() {
         return email;
     }

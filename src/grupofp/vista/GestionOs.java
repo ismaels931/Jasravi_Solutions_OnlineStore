@@ -133,6 +133,17 @@ public class GestionOs {
         String domicilio = teclado.nextLine();
         System.out.println("Nif: ");
         String nif = teclado.nextLine();
+
+        DniValidator validator = new DniValidator();
+
+        try {
+            validator.validateDni(nif);
+        }
+        catch (DniLengthException e) {
+            System.err.println("Error: " + e.getMessage());
+            return;
+        }
+
         System.out.println("Email: ");
         String email = teclado.nextLine();
 

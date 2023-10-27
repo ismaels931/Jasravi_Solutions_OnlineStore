@@ -11,7 +11,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java Libraries/hamcrest-core-1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../DAM/semestre3/poobbdd/junit-4.13.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -20,7 +20,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java Libraries/junit-4.13.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../DAM/semestre3/poobbdd/hamcrest-core-1.3.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
